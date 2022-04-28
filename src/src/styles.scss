@@ -34,6 +34,10 @@ a.icon > strong {margin-left:.25rem}
 // override specific bulma styles
 .section {padding: 2.15rem 1.5rem}
 
+#degree {
+    font-weight: bold;
+}
+
 @function theme-color($key: "primary") {
     @return map-get($theme-colors, $key);
 }
